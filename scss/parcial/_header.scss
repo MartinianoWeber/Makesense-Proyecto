@@ -1,0 +1,44 @@
+@import 'variables';
+/* Header */
+.header {
+    background-image: url(/imagenes/Fondo-registro-emprendedor.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 900px;
+    border-bottom-right-radius: 17%;
+}
+/* nav*/
+
+.navegacion {
+    padding: 2rem;
+    font-weight: 600;
+    
+}
+
+.navegacion-items {
+    color: $letraoscura !important;
+    transition: 1s;
+    &:hover {
+        color: black !important;
+        transition: 1s;
+    }
+}
+
+.textos {
+    margin-top: 30rem;
+    h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 64px;
+        color: $letrablanca;
+
+    }
+
+    p {
+        text-align: center;
+        font-weight: 300;
+        font-size: 48px;
+        color: $letrablanca;
+        text-justify: auto;
+    }
+}

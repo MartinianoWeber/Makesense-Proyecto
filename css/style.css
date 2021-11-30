@@ -1,0 +1,163 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Generales */
+body {
+  font-family: "Raleway";
+}
+
+a {
+  text-decoration: none;
+}
+
+/** Utilidades **/
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.centrar-texto {
+  text-align: center;
+}
+
+/* Header */
+.header {
+  background-image: url(../imagenes/Fondo-registro-emprendedor.jpg);
+  background-repeat: no-repeat;
+  width: auto;
+  height: 900px;
+  border-bottom-right-radius: 17%;
+}
+
+/* nav*/
+.navegacion {
+  padding: 2rem;
+  font-weight: 600;
+}
+
+.navegacion-items {
+  color: #696969 !important;
+  transition: 1s;
+}
+.navegacion-items:hover {
+  color: black !important;
+  transition: 1s;
+}
+
+.textos {
+  margin-top: 30rem;
+}
+.textos h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 64px;
+  color: #FFFFFF;
+}
+.textos p {
+  text-align: center;
+  font-weight: 300;
+  font-size: 48px;
+  color: #FFFFFF;
+  text-justify: auto;
+}
+
+/* Seccion 1 */
+.seccion1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15rem;
+}
+.seccion1 h2 {
+  font-weight: 700;
+  font-size: 40px;
+  width: 70%;
+}
+
+.seccion2 {
+  /* Background */
+  background: #5c575c;
+  background: -moz-linear-gradient(left, #5c575c 0%, #9ead8a 0%, #a8bc8e 14%, #c1e297 48%, #c1e297 92%, #c1e297 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #5c575c), color-stop(0%, #9ead8a), color-stop(14%, #a8bc8e), color-stop(48%, #c1e297), color-stop(92%, #c1e297), color-stop(100%, #c1e297));
+  background: -webkit-linear-gradient(left, #5c575c 0%, #9ead8a 0%, #a8bc8e 14%, #c1e297 48%, #c1e297 92%, #c1e297 100%);
+  background: -o-linear-gradient(left, #5c575c 0%, #9ead8a 0%, #a8bc8e 14%, #c1e297 48%, #c1e297 92%, #c1e297 100%);
+  background: -ms-linear-gradient(left, #5c575c 0%, #9ead8a 0%, #a8bc8e 14%, #c1e297 48%, #c1e297 92%, #c1e297 100%);
+  background: linear-gradient(to right, #5c575c 0%, #9ead8a 0%, #a8bc8e 14%, #c1e297 48%, #c1e297 92%, #c1e297 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#5c575c", endColorstr="#c1e297", GradientType=1 );
+  /* Shadow */
+  -webkit-box-shadow: 1px 15px 34px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 15px 34px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 15px 34px 5px rgba(0, 0, 0, 0.75);
+  /* Modificaciones */
+  width: 70rem;
+  padding: 4rem;
+  margin: auto;
+  border-radius: 2rem;
+  margin-top: 10rem;
+}
+.seccion2 ol li {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.seccion3 p {
+  font-size: 30px;
+  font-weight: 700;
+  width: 85rem;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.seccion4 .seccion4__textos {
+  margin: auto;
+  margin-top: 5rem;
+  width: 85rem;
+}
+.seccion4 .seccion4__textos h2 {
+  font-size: 30px;
+}
+.seccion4 .seccion4__textos p {
+  font-size: 30px;
+}
+.seccion4 form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.seccion4 form textarea {
+  border-radius: 1rem;
+  width: 650px;
+  height: 200px;
+  font-size: 1.5rem;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.3rem;
+}
+footer p {
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+footer div img {
+  margin-right: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
